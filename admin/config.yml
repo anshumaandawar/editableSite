@@ -1,0 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "homepage"
+    label: "Homepage Content"
+    files:
+      - label: "Homepage Section"
+        name: "homepage_section"
+        file: "content/homepage.md"
+        fields:
+          - { label: "Page Title", name: "site_title", widget: "string" }
+          - { label: "Welcome Title", name: "welcome_title", widget: "string" }
+          - { label: "Welcome Subtitle", name: "welcome_subtitle", widget: "string" }
+          - { label: "Main Image", name: "main_image", widget: "image" }

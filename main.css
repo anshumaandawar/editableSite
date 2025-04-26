@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    padding: 50px;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
